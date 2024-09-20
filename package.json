@@ -1,0 +1,32 @@
+{
+  "name": "breaker-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StonedHesus/breaker-ts.git"
+  },
+  "keywords": [],
+  "author": "Andrei-Paul Ionescu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StonedHesus/breaker-ts/issues"
+  },
+  "homepage": "https://github.com/StonedHesus/breaker-ts#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.5",
+    "express": "^4.21.0",
+    "nodemon": "^3.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
